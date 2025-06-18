@@ -1,0 +1,2506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>El Vado Mexican Restaurant</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/80d7da2f5b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/icofont.min.css">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                  <!--img src="img/logo.png" alt="Logo"-->
+                    <h1 class="text-primary m-0">El Vado Mexican Restaurant</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0 pe-4">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <!--a href="menu.html" class="nav-item nav-link">Menu</a-->
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Menu</a>
+                            <div class="dropdown-menu m-0">
+                                <!--a href="booking.html" class="dropdown-item">Booking</a-->
+                                <a href="menuMcHenry.html" class="dropdown-item">McHenry</a>
+                                <a href="menuLakeZurich.html" class="dropdown-item Active">Lake Zurich</a>
+                            </div>
+                        </div>
+                        <a href="catering.html" class="nav-item nav-link">Catering</a>
+                        <a href="foodtruck.html" class="nav-item nav-link">Food Truck</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <a href="order.html" class="btn btn-primary py-2 px-4">Order</a>
+                </div>
+            </nav>
+
+            <div class="container-xxl py-5 bg-dark hero-header mb-5">
+                <div class="container text-center my-5 pt-5 pb-4">
+                    <h1 class="display-3 text-white mb-3 animated slideInDown">Food Menu</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center text-uppercase">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <!--li class="breadcrumb-item"><a href="#">Pages</a></li-->
+                            <li class="breadcrumb-item text-white active" aria-current="page">Menu</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- Menu Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Food Menu</h5>
+                    <h1 class="mb-5">The best of the Mexican Food</h1>
+                </div>
+                <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
+                                <i class="fa fa-coffee fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Desayunos</small>
+                                    <h6 class="mt-n1 mb-0">Breakfast</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
+                                <i class="fa fa-bread-slice fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Aperitivos</small>
+                                    <h6 class="mt-n1 mb-0">Appetizer</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-3">
+                                <i class="fa fa-shrimp fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Mariscos</small>
+                                    <h6 class="mt-n1 mb-0">Seafood</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-4">
+                                <i class="fa fa-drumstick-bite fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Carnes</small>
+                                    <h6 class="mt-n1 mb-0">Meats</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-5">
+                                <i class="fa fa-utensils fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Individuales</small>
+                                    <h6 class="mt-n1 mb-0">Individuals</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-6">
+                                <i class="fa fa-hamburger fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Menu Infantil</small>
+                                    <h6 class="mt-n1 mb-0">Kids Menu</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-7">
+                                <i class="fa fa-pepper-hot fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Mexican</small>
+                                    <h6 class="mt-n1 mb-0">Dinners</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-8">
+                                <i class="fa fa-martini-glass-citrus fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Desserts</small>
+                                    <h6 class="mt-n1 mb-0">& Bar Menu</h6>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Huevos Rancheros</span>
+                                                <span class="text-primary">$14.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Huevos con Chorizo</span>
+                                                <span class="text-primary">$14.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Huevos a la Mexicana</span>
+                                                <span class="text-primary">$14.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Huevos con Jamón</span>
+                                                <span class="text-primary">$14.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chilaquiles Verdes o Rojos</span>
+                                                <span class="text-primary">$15.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Con Huevo o Carne</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chilaquiles Verdes o Rojos</span>
+                                                <span class="text-primary">$20.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Con Cecina</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chilaquiles Verdes o Rojos</span>
+                                                <span class="text-primary">$20.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Grilled Chicken</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chilaquiles Verdes o Rojos</span>
+                                                <span class="text-primary">$23.99</span>
+                                            </h5>
+                                            <small class="fst-italic">con Arrachera</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>ChoriQueso</span>
+                                                <span class="text-primary">$8.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Melted Cheese and Chorizo</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Ceviche de Camarón</span>
+                                                <span class="text-primary">$18.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Shrimp Salad</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Ceviche Campechano</span>
+                                                <span class="text-primary">$21.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Mixed Salad</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chips Nacho Cheese</span>
+                                                <span class="text-primary">$6.99<span>
+                                            </h5>
+                                            <!--small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Nachos with Meat</span>
+                                                <span class="text-primary">$13.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Nachos no Meat</span>
+                                                <span class="text-primary">$9.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Quesadilla with Meat</span>
+                                                <span class="text-primary">$10.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Quesadilla no Meat</span>
+                                                <span class="text-primary">$8.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Quesadilla Fajita</span>
+                                                <span class="text-primary">$12.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Steak or Chicken</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Buffalo Chicken Strips</span>
+                                                <span class="text-primary">$9.99</span>
+                                            </h5>
+                                            <small class="fst-italic">5 pieces with fries</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Camarones a la Mantequilla</span>
+                                                <span class="text-primary">$21.99</span>
+                                            </h5>
+                                            <small class="fst-italic">14 pieces of Buttered Shrimps, grilled with butter and seasoning, no shell</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Camarones Cucaracha</span>
+                                                <span class="text-primary">$22.99<span>
+                                            </h5>
+                                            <small class="fst-italic">Spice 14 pieces. +$1 no shell</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Camarones Aguachile</span>
+                                                <span class="text-primary">$22.99<span>
+                                            </h5>
+                                            <small class="fst-italic">Spice 14 pieces. +$1 no shell</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Langostinos</span>
+                                                <span class="text-primary">$39.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>1/2 Langostinos</span>
+                                                <span class="text-primary">$22.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Botana Mix Mariscos</span>
+                                                <span class="text-primary">$22.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Guacamole</span>
+                                                <span class="text-primary">$6.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-3" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Camarones "El Vado"</span>
+                                                <span class="text-primary">$21.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Shrimp in Homemade hot Chile Seco sauce with Mayo. +$1 no shell.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Camarones a la Diabla</span>
+                                                <span class="text-primary">$21.99</span>
+                                            </h5>
+                                            <small class="fst-italic">+$1 no shell.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Camarones a la Plancha</span>
+                                                <span class="text-primary">$19.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Shrimp with shell</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Camarones al Mojo de Ajo</span>
+                                                <span class="text-primary">$21.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Shrimp in Garlic Sauce with shell. +$1 no shell</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Camarones al Chiltepín</span>
+                                                <span class="text-primary">$21.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Shrimp in Spicy Mayo Sauce. +$1 no shell.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Camarones a la Mantequilla</span>
+                                                <span class="text-primary">$20.99</span>
+                                            </h5>
+                                            <small class="fst-italic">No shell</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Camarones al Chile Seco</span>
+                                                <span class="text-primary">$21.99</span>
+                                            </h5>
+                                            <small class="fst-italic">+$1 no shell</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Camarones Combinación</span>
+                                                <span class="text-primary">$44.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Plancha | Chiltepín | Diabla </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Camarones Cucaracha</span>
+                                                <span class="text-primary">$21.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Shrimp in Sauce. +$1 no shell</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Camarones Empanizados</span>
+                                                <span class="text-primary">$19.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Breaded Shrimps</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Camarones Enchipotlados</span>
+                                                <span class="text-primary">$21.99</span>
+                                            </h5>
+                                            <small class="fst-italic">+$1 no shell.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Mojarra Frita</span>
+                                                <span class="text-primary">$17.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">No shell</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Mojarra en Salsa</span>
+                                                <span class="text-primary">$19.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">+$1 no shell</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Mojarra Bañada de Mariscos</span>
+                                                <span class="text-primary">$25.50</span>
+                                            </h5>
+                                            <small class="fst-italic">Tilapia with sellfish, Diabla Sauce, Chiltepín Sauce, "El Gordo" Sauce, Chile Seco Sauce</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Pulpo al Gusto</span>
+                                                <span class="text-primary">$29.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Octopus</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Coctel Campechano</span>
+                                                <span class="text-primary">$21.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Combined Cocktail Octopus & Shrimp</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Coctel de Camarón</span>
+                                                <span class="text-primary">$18.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Shrimp Cocktail</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Coctel Vuelve a la Vida</span>
+                                                <span class="text-primary">$25.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">+$1 no shell</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Filete de Pescado a la Plancha</span>
+                                                <span class="text-primary">$17.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Shrimp in Homemade hot Chile Seco sauce with Mayo. +$1 no shell.</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Filete de Pescado Empanizado</span>
+                                                <span class="text-primary">$19.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Filete de Pescado Bañado de Mariscos</span>
+                                                <span class="text-primary">$25.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Shrimp with shell</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Molcajete Mar y Tierra</span>
+                                                <span class="text-primary">$27.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Arrachera, Chicken Breast, Shrimp, Nopales, Grilled Jalapeños & Onions, Pico de Gallo, Shreded Chesse, Diabla Sauce</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Molcajete 7 Mares</span>
+                                                <span class="text-primary">$27.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Spicy Seafood Soup, Shrimp, Clams, Fish, Crab legs, Octopus</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Sopa de Mariscos</span>
+                                                <span class="text-primary">$25.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Seafood Soup, Shrimp, Clams, Fish, Crab legs, Octopus</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Caldo de Camarón con Filete</span>
+                                                <span class="text-primary">$21.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">No shell</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Caldo de Mojarra Entera</span>
+                                                <span class="text-primary">$21.99</span>
+                                            </h5>
+                                            <!--mall class="fst-italic">Plancha | Chiltepín | Diabla </small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Caldo de Filete Tilapia</span>
+                                                <span class="text-primary">$19.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Fish Soup, Tilapia fillet</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Caldo de Camarones con cáscara</span>
+                                                <span class="text-primary">$19.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Shrimp Soup. +$1 no shell</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Tostada de Ceviche de Camarón</span>
+                                                <span class="text-primary">$7.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Breaded Shrimps</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Tostada de Pulpo</span>
+                                                <span class="text-primary">$8.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">+$1 no shell</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Tostada de Pulpo y Camarón</span>
+                                                <span class="text-primary">$8.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">+$1 no shell.</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Cazuela de Maricos para 2</span>
+                                                <span class="text-primary">$42.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">No shell</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Ostiones</span>
+                                                <span class="text-primary">MP</span>
+                                            </h5>
+                                            <small class="fst-italic">6 or 12 pcs.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Ostiones Preparados</span>
+                                                <span class="text-primary">MP</span>
+                                            </h5>
+                                            <small class="fst-italic">6 or 12 pcs. Con Ceviche Campechano</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Camaroniza Familiar</span>
+                                                <span class="text-primary">$99.99</span>
+                                            </h5>
+                                            <small class="fst-italic">7 órdenes de Camarones con cáscara en diferentes Salsas. 5-6 Personas. Se acompaña con ensalada, papas fritas, arroz y frijoles</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Camaroniza Familiar</span>
+                                                <span class="text-primary">$120.00</span>
+                                            </h5>
+                                            <small class="fst-italic">7 órdenes de Camarones sin cáscara en diferentes Salsas. 5-6 Personas. Se acompaña con ensalada, papas fritas, arroz y frijoles</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Mariscada Familiar</span>
+                                                <span class="text-primary">$160.00</span>
+                                            </h5>
+                                            <small class="fst-italic">6-7 Personas. 4 Filetes, 2 Pescados, 4 manos de Cangrejo, Pulpo, 5 órdenes de Camarón, Ceviche de Camarón y Pulpo</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-4" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Cecina El Vado</span>
+                                                <span class="text-primary">$20.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Salad, Rice, Grilled Jalapeños, Onion & Nopales</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Lengua al Gusto</span>
+                                                <span class="text-primary">$22.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Carne Asada</span>
+                                                <span class="text-primary">$19.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Tender skirt Steak Grilled</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Tampiqueña</span>
+                                                <span class="text-primary">$23.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Skirt Steak Grilled. Served with one Cheese Enchilada</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Bistek Endiablado</span>
+                                                <span class="text-primary">$20.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Bistek Encebollado</span>
+                                                <span class="text-primary">$20.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Tender skirt Steak with Grilled Onions</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Bistek a la Mexicana</span>
+                                                <span class="text-primary">$21.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Tender skirt Steak with Grilled Onions, Tomatoes & Jalapeños</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Costilla en Salsa Verde</span>
+                                                <span class="text-primary">$18.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Carne Veracruzana con Camarones a la Plancha</span>
+                                                <span class="text-primary">$30.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Alambre Mixto</span>
+                                                <span class="text-primary">$23.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Fajita Camarón</span>
+                                                <span class="text-primary">$22.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Fajita Asada/Steak</span>
+                                                <span class="text-primary">$19.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Fajita Combo</span>
+                                                <span class="text-primary">$22.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Fajita Pollo/Chicken</span>
+                                                <span class="text-primary">$19.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Pechuga a la Plancha</span>
+                                                <span class="text-primary">$18.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Chicken Breast</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Mar y Tierra</span>
+                                                <span class="text-primary">$26.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Grilled skirt Steak, Grilled Shrimp & Chicken Breast</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Pollo en Mole</span>
+                                                <span class="text-primary">$18.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Chicken Leg & Thighs in Mole Sauce</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Pollo en Chiltepin</span>
+                                                <span class="text-primary">$18.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Chicken Leg & Thighs in Chiltepín Sauce</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Carnitas Dinner</span>
+                                                <span class="text-primary">$19.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Fried Pork</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Parrillada para 2</span>
+                                                <span class="text-primary">$39.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Chicken, Arrachera, Cecina, Shrimps, Grilled Jalapeños, Rice, Beans, Salad & Tortillas</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Milanesa de Res o Pollo</span>
+                                                <span class="text-primary">$19.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Grilled Chicken</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Costilla a la Parrilla</span>
+                                                <span class="text-primary">$26.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">con Arrachera</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Pozole</span>
+                                                <span class="text-primary">$15.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Grilled Chicken</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Menudo</span>
+                                                <span class="text-primary">$15.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">con Arrachera</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-5" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Taco Regular</span>
+                                                <span class="text-primary">$3.75</span>
+                                            </h5>
+                                            <small class="fst-italic">Asada, Pollo, Chorizo, Pastor, Ground Beef</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Taco Premium</span>
+                                                <span class="text-primary">4.75</span>
+                                            </h5>
+                                            <small class="fst-italic">Shrimp, Lengua, Cecina, Carnitas, Fish, Arrachera, Cabeza de Puerco, Tripa Suave</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Tripa Dorada</span>
+                                                <span class="text-primary">$5.25</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Sope</span>
+                                                <span class="text-primary">$4.50</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Torta</span>
+                                                <span class="text-primary">$8.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Con Huevo o Carne</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Torta Cubana</span>
+                                                <span class="text-primary">$9.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Con Huevo o Carne</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chile Relleno Jalapeño</span>
+                                                <span class="text-primary">$3.50</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Grilled Chicken</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chile Relleno Poblano</span>
+                                                <span class="text-primary">$4.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">con Arrachera</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Empanada</span>
+                                                <span class="text-primary">$3.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Con Cecina</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Tostada</span>
+                                                <span class="text-primary">$3.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Con Cecina</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Tamal</span>
+                                                <span class="text-primary">$3.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Con Cecina</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Burrito</span>
+                                                <span class="text-primary">$9.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Con Cecina</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Arroz</span>
+                                                <span class="text-primary">$3.00</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Con Cecina</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Frijoles</span>
+                                                <span class="text-primary">$3.00</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Con Cecina</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Guacamole</span>
+                                                <span class="text-primary">$5.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Order 8oz</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chips/Salsa</span>
+                                                <span class="text-primary">$3.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Con Cecina</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chips/Guacamole</span>
+                                                <span class="text-primary">$8.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Con Cecina</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Salsa el Vado</span>
+                                                <span class="text-primary">$4.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Con Cecina</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chile Seco</span>
+                                                <span class="text-primary">$5.50</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Con Cecina</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Side Chiltepín</span>
+                                                <span class="text-primary">$4.50</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Con Cecina</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Side Salsa Chunky</span>
+                                                <span class="text-primary">$2.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Con Cecina</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Side Salsa 32oz</span>
+                                                <span class="text-primary">$9.00</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Con Cecina</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Queso 8oz</span>
+                                                <span class="text-primary">$1.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Con Cecina</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Aguacate Side</span>
+                                                <span class="text-primary">$1.50</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Con Cecina</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Crema 2oz</span>
+                                                <span class="text-primary">$0.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Con Cecina</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Pan</span>
+                                                <span class="text-primary">$2.00</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Con Cecina</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Tortillas</span>
+                                                <span class="text-primary">$2.00</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Con Cecina</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Cebollitas (4)</span>
+                                                <span class="text-primary">$2.50</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Con Cecina</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chiles Toreados (4)</span>
+                                                <span class="text-primary">$2.50</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Con Cecina</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Orden de Chiles y Cebollas</span>
+                                                <span class="text-primary">$5.00</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Con Cecina</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chips/Salsa/Guacamole</span>
+                                                <span class="text-primary">$10.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Con Cecina</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Pico de Gallo</span>
+                                                <span class="text-primary">$4.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Con Cecina</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-6" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Taco</span>
+                                                <span class="text-primary">$6.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Served with Rice & Beans o Fries</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Hot Dog</span>
+                                                <span class="text-primary">$6.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Served with Rice & Beans o Fries</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Cheese Burger</span>
+                                                <span class="text-primary">$6.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Served with Rice & Beans o Fries</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Tender</span>
+                                                <span class="text-primary">$6.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Served with Rice & Beans o Fries</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Cheese Quesadilla</span>
+                                                <span class="text-primary">$6.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Served with Rice & Beans o Fries</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Mac&Cheese</span>
+                                                <span class="text-primary">$6.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Served with Rice & Beans o Fries</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-7" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Tostada Dinner (2)</span>
+                                                <span class="text-primary">$13.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Served with Rice, Beans and your choice of Meat: Asada, Chicken, Pastor, Ground Beef, Chorizo, Avocado, Cabeza de Puerco. -Additional Charge: Carnitas, Shrimp, Cecina, Arrachera & Fish.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Empananda Dinner (3)</span>
+                                                <span class="text-primary">$13.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Served with Rice, Beans and your choice of Meat: Asada, Chicken, Pastor, Ground Beef, Chorizo, Avocado, Cabeza de Puerco. -Additional Charge: Carnitas, Shrimp, Cecina, Arrachera & Fish.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Burrito Suizo Dinner</span>
+                                                <span class="text-primary">$15.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Served with Rice, Beans and your choice of Meat: Asada, Chicken, Pastor, Ground Beef, Chorizo, Avocado, Cabeza de Puerco. -Additional Charge: Carnitas, Shrimp, Cecina, Arrachera & Fish.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Sope Dinner</span>
+                                                <span class="text-primary">$14.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Served with Rice, Beans and your choice of Meat: Asada, Chicken, Pastor, Ground Beef, Chorizo, Avocado, Cabeza de Puerco. -Additional Charge: Carnitas, Shrimp, Cecina, Arrachera & Fish.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Torta de Milanesa</span>
+                                                <span class="text-primary">$13.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Pollo o Res. Served with Rice & Beans.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Taco Dinner (3)</span>
+                                                <span class="text-primary">$13.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Served with Rice, Beans and your choice of Meat: Asada, Chicken, Pastor, Ground Beef, Chorizo, Avocado, Cabeza de Puerco. -Additional Charge: Carnitas, Shrimp, Cecina, Arrachera & Fish.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Torta Dinner (3)</span>
+                                                <span class="text-primary">$12.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Served with Rice, Beans and your choice of Meat: Asada, Chicken, Pastor, Ground Beef, Chorizo, Avocado, Cabeza de Puerco. -Additional Charge: Carnitas, Shrimp, Cecina, Arrachera & Fish.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Torta Cubana Dinner</span>
+                                                <span class="text-primary">$14.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Served with Rice, Beans and your choice of Meat: Asada, Chicken, Pastor, Ground Beef, Chorizo, Avocado, Cabeza de Puerco. -Additional Charge: Carnitas, Shrimp, Cecina, Arrachera & Fish.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Tamal Dinner (2)</span>
+                                                <span class="text-primary">$14.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Served with Rice, Beans and your choice of Meat: Asada, Chicken, Pastor, Ground Beef, Chorizo, Avocado, Cabeza de Puerco. -Additional Charge: Carnitas, Shrimp, Cecina, Arrachera & Fish.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Flautas de Pollo Dinner</span>
+                                                <span class="text-primary">$13.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Served with Rice & Beans</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chimichanga Dinner</span>
+                                                <span class="text-primary">$14.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Served with Rice, Beans and your choice of Meat: Asada, Chicken, Pastor, Ground Beef, Chorizo, Avocado, Cabeza de Puerco. -Additional Charge: Carnitas, Shrimp, Cecina, Arrachera & Fish.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chile Relleno Jalapeño</span>
+                                                <span class="text-primary">$13.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Served with Rice & Beans</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chile Relleno Poblano</span>
+                                                <span class="text-primary">$15.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Served with Rice & Beans</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Quesadilla Meat Dinner</span>
+                                                <span class="text-primary">$14.99</span>
+                                            </h5>
+                                          <small class="fst-italic">Served with Rice, Beans and your choice of Meat: Asada, Chicken, Pastor, Ground Beef, Chorizo, Avocado, Cabeza de Puerco. -Additional Charge: Carnitas, Shrimp, Cecina, Arrachera & Fish.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Quesadilla Fajita Dinner</span>
+                                                <span class="text-primary">$17.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Steak or Chicken. Served with Rice & Beans</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Quesadilla Cheese Dinner</span>
+                                                <span class="text-primary">$11.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Served with Rice & Beans</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Burrito Dinner</span>
+                                                <span class="text-primary">$13.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Served with Rice, Beans and your choice of Meat: Asada, Chicken, Pastor, Ground Beef, Chorizo, Avocado, Cabeza de Puerco. -Additional Charge: Carnitas, Shrimp, Cecina, Arrachera & Fish.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Burrito Veggi</span>
+                                                <span class="text-primary">$9.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Steak or Chicken. Served with Rice & Beans</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Burrito Veggi Dinner</span>
+                                                <span class="text-primary">$14.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Served with Rice & Beans</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Taco Salad</span>
+                                                <span class="text-primary">$15.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Served with Rice, Beans and your choice of Meat: Asada, Chicken, Pastor, Ground Beef, Chorizo, Avocado, Cabeza de Puerco. -Additional Charge: Carnitas, Shrimp, Cecina, Arrachera & Fish.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Quesabirria Dinner</span>
+                                                <span class="text-primary">$17.99</span>
+                                            </h5>
+                                            <!--small class="fst-italic">Beans, Pastor, Egg, Sausage, Ham, Cheese, Lettuce, Tomato & Avocado</small-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Enchiladas Rancheras</span>
+                                                <span class="text-primary">$15.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Mild</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Enchiladas Rojas</span>
+                                                <span class="text-primary">$15.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Spicy</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Enchiladas Verdes</span>
+                                                <span class="text-primary">$15.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Mild</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Enchiladas Mole</span>
+                                                <span class="text-primary">$15.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Mild</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Combo 1</span>
+                                                <span class="text-primary">$17.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Taco + Tostada + Enchilada. <br>*Only one Meat</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Combo 2</span>
+                                                <span class="text-primary">$17.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Chile Relleno Poblano Cheese + Tamal Chicken + Taco </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Tacorrosca Regular</span>
+                                                <span class="text-primary">$34.99</span>
+                                            </h5>
+                                            <small class="fst-italic">12 pieces</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Tacorrosca Carne Especial</span>
+                                                <span class="text-primary">$44.99</span>
+                                            </h5>
+                                            <small class="fst-italic">12 pieces</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Tacorrosca Regular</span>
+                                                <span class="text-primary">$69.99</span>
+                                            </h5>
+                                            <small class="fst-italic">24 pieces</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;"-->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Tacorrosca Carne Especial</span>
+                                                <span class="text-primary">$79.99</span>
+                                            </h5>
+                                            <small class="fst-italic">24 pieces</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-8" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                              <div class="col-lg-6">
+                                  <div class="d-flex align-items-center">
+                                      <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                      <div class="w-100 d-flex flex-column text-start ps-4">
+                                          <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                              <span>Flan</span>
+                                              <span class="text-primary">$4.99</span>
+                                          </h5>
+                                          <!--small class="fst-italic">Con Cecina</small-->
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="d-flex align-items-center">
+                                      <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                      <div class="w-100 d-flex flex-column text-start ps-4">
+                                          <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                              <span>Plátanos Fritos</span>
+                                              <span class="text-primary">$4.99</span>
+                                          </h5>
+                                          <!--small class="fst-italic">Con Cecina</small-->
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="d-flex align-items-center">
+                                      <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                      <div class="w-100 d-flex flex-column text-start ps-4">
+                                          <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                              <span>Nieve Frita</span>
+                                              <span class="text-primary">$8.99</span>
+                                          </h5>
+                                          <!--small class="fst-italic">Con Cecina</small-->
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="d-flex align-items-center">
+                                      <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                      <div class="w-100 d-flex flex-column text-start ps-4">
+                                          <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                              <span>Jarrito, Casera, Sidral</span>
+                                              <span class="text-primary">$3.50</span>
+                                          </h5>
+                                          <!--small class="fst-italic">Con Cecina</small-->
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="d-flex align-items-center">
+                                      <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                      <div class="w-100 d-flex flex-column text-start ps-4">
+                                          <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                              <span>Coca Mexicana</span>
+                                              <span class="text-primary">$4.50</span>
+                                          </h5>
+                                          <!--small class="fst-italic">Con Cecina</small-->
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="d-flex align-items-center">
+                                      <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                      <div class="w-100 d-flex flex-column text-start ps-4">
+                                          <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                              <span>Aguas Frescas (Small)</span>
+                                              <span class="text-primary">$3.00</span>
+                                          </h5>
+                                          <!--small class="fst-italic">Con Cecina</small-->
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="d-flex align-items-center">
+                                      <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                      <div class="w-100 d-flex flex-column text-start ps-4">
+                                          <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                              <span>Aguas Frescas (Large)</span>
+                                              <span class="text-primary">$6.00</span>
+                                          </h5>
+                                          <!--small class="fst-italic">Con Cecina</small-->
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="d-flex align-items-center">
+                                      <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                      <div class="w-100 d-flex flex-column text-start ps-4">
+                                          <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                              <span>Large Margarita</span>
+                                              <span class="text-primary">$10.99</span>
+                                          </h5>
+                                          <!--small class="fst-italic">Con Cecina</small-->
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="d-flex align-items-center">
+                                      <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                      <div class="w-100 d-flex flex-column text-start ps-4">
+                                          <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                              <span>Small Margarita</span>
+                                              <span class="text-primary">$7.50</span>
+                                          </h5>
+                                          <!--small class="fst-italic">Con Cecina</small-->
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="d-flex align-items-center">
+                                      <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                      <div class="w-100 d-flex flex-column text-start ps-4">
+                                          <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                              <span>Premium Margarita</span>
+                                              <span class="text-primary">$17.99</span>
+                                          </h5>
+                                          <!--small class="fst-italic">Con Cecina</small-->
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="d-flex align-items-center">
+                                      <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                      <div class="w-100 d-flex flex-column text-start ps-4">
+                                          <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                              <span>Cadillac Margarita</span>
+                                              <span class="text-primary">$19.99</span>
+                                          </h5>
+                                          <!--small class="fst-italic">Con Cecina</small-->
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="d-flex align-items-center">
+                                      <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                      <div class="w-100 d-flex flex-column text-start ps-4">
+                                          <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                              <span>Beer Margarita</span>
+                                              <span class="text-primary">$15.99</span>
+                                          </h5>
+                                          <!--small class="fst-italic">Con Cecina</small-->
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="d-flex align-items-center">
+                                      <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                      <div class="w-100 d-flex flex-column text-start ps-4">
+                                          <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                              <span>King Margarita</span>
+                                              <span class="text-primary">$75.99</span>
+                                          </h5>
+                                          <!--small class="fst-italic">Con Cecina</small-->
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="d-flex align-items-center">
+                                      <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                      <div class="w-100 d-flex flex-column text-start ps-4">
+                                          <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                              <span>Paloma</span>
+                                              <span class="text-primary">$12.99</span>
+                                          </h5>
+                                          <!--small class="fst-italic">Con Cecina</small-->
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="d-flex align-items-center">
+                                      <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                      <div class="w-100 d-flex flex-column text-start ps-4">
+                                          <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                              <span>Tequila Sunrise</span>
+                                              <span class="text-primary">$12.99</span>
+                                          </h5>
+                                          <!--small class="fst-italic">Con Cecina</small-->
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="d-flex align-items-center">
+                                      <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                      <div class="w-100 d-flex flex-column text-start ps-4">
+                                          <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                              <span>Sex on the Beach</span>
+                                              <span class="text-primary">$12.99</span>
+                                          </h5>
+                                          <!--small class="fst-italic">Con Cecina</small-->
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="d-flex align-items-center">
+                                      <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                      <div class="w-100 d-flex flex-column text-start ps-4">
+                                          <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                              <span>Cantarito House Tequila</span>
+                                              <span class="text-primary">$12.99</span>
+                                          </h5>
+                                          <!--small class="fst-italic">Con Cecina</small-->
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="d-flex align-items-center">
+                                      <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                      <div class="w-100 d-flex flex-column text-start ps-4">
+                                          <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                              <span>Cantarito Top Tequila</span>
+                                              <span class="text-primary">$17.99</span>
+                                          </h5>
+                                          <!--small class="fst-italic">Con Cecina</small-->
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="d-flex align-items-center">
+                                      <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                      <div class="w-100 d-flex flex-column text-start ps-4">
+                                          <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                              <span>Big Cantarito House Tequila</span>
+                                              <span class="text-primary">$26.99</span>
+                                          </h5>
+                                          <!--small class="fst-italic">Con Cecina</small-->
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="d-flex align-items-center">
+                                      <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                      <div class="w-100 d-flex flex-column text-start ps-4">
+                                          <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                              <span>Big Cantarito Top Tequila</span>
+                                              <span class="text-primary">$34.99</span>
+                                          </h5>
+                                          <!--small class="fst-italic">Con Cecina</small-->
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="d-flex align-items-center">
+                                      <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                      <div class="w-100 d-flex flex-column text-start ps-4">
+                                          <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                              <span>Michelada</span>
+                                              <span class="text-primary">$8.99</span>
+                                          </h5>
+                                          <!--small class="fst-italic">Con Cecina</small-->
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="d-flex align-items-center">
+                                      <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                      <div class="w-100 d-flex flex-column text-start ps-4">
+                                          <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                              <span>Michelada el Vado with Shrimp</span>
+                                              <span class="text-primary">$9.99</span>
+                                          </h5>
+                                          <!--small class="fst-italic">Con Cecina</small-->
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="d-flex align-items-center">
+                                      <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                      <div class="w-100 d-flex flex-column text-start ps-4">
+                                          <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                              <span>Six Botanero with Ceviche</span>
+                                              <span class="text-primary">$35.99</span>
+                                          </h5>
+                                          <!--small class="fst-italic">Con Cecina</small-->
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="d-flex align-items-center">
+                                      <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                      <div class="w-100 d-flex flex-column text-start ps-4">
+                                          <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                              <span>Sagría</span>
+                                              <span class="text-primary">$14.99</span>
+                                          </h5>
+                                          <!--small class="fst-italic">Con Cecina</small-->
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="d-flex align-items-center">
+                                      <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                      <div class="w-100 d-flex flex-column text-start ps-4">
+                                          <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                              <span>Tower Margarita</span>
+                                              <span class="text-primary">$39.99</span>
+                                          </h5>
+                                          <!--small class="fst-italic">Con Cecina</small-->
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="d-flex align-items-center">
+                                      <!--img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;"-->
+                                      <div class="w-100 d-flex flex-column text-start ps-4">
+                                          <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                              <span>Margarita Pitcher</span>
+                                              <span class="text-primary">$29.99</span>
+                                          </h5>
+                                          <!--small class="fst-italic">Con Cecina</small-->
+                                      </div>
+                                  </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Menu End -->
+
+        <!-- Service Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-4">
+                  <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                      <h5 class="section-title ff-secondary text-center text-primary fw-normal">Order at</h5>
+                      <h1 class="mb-5">DoorDash</h1>
+                      <a href="https://www.doordash.com/store/27609549?utm_source=mx_share" class="btn btn-primary py-2 px-4">Click Here!</a>
+                      <!--img src="img/doordashlogo.png"></img-->
+                  </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <!--div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Company</h4>
+                        <a class="btn btn-link" href="">About Us</a>
+                        <a class="btn btn-link" href="">Contact Us</a>
+                        <a class="btn btn-link" href="">Reservation</a>
+                        <a class="btn btn-link" href="">Privacy Policy</a>
+                        <a class="btn btn-link" href="">Terms & Condition</a>
+                    </div-->
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">McHenry</h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>929 Front Street , McHenry, Illinois, USA</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+1 815-344-2804</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>Elvado929@yahoo.com</p>
+                        <div class="d-flex pt-2">
+                            <!--a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a-->
+                            <!--a class="btn btn-outline-light btn-social" href="https://wa.me/+18153442804"><i class="fab fa-whatsapp"></i></a-->
+                            <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/profile.php?id=100039732345001"><i class="fab fa-facebook-f"></i></a>
+                            <!--a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a-->
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening</h4>
+                      <h5 class="text-light fw-normal">Monday - Saturday</h5>
+                      <p>10AM - 09PM</p>
+                      <h5 class="text-light fw-normal">Sunday</h5>
+                      <p>10AM - 08PM</p>
+                      </div>
+                    <div class="col-lg-3 col-md-6">
+                          <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Lake Zurich</h4>
+                          <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>471 Rand Road, Lake Zurich, Illinois, USA</p>
+                          <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+1 224-301-0724</p>
+                          <p class="mb-2"><i class="fa fa-envelope me-3"></i>Elvado929@yahoo.com</p>
+                          <div class="d-flex pt-2"-->
+                              <!--a class="btn btn-outline-light btn-social" href="https://wa.me/+18153442804"><i class="fab fa-whatsapp"></i></a-->
+                              <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/profile.php?id=61555412752540"><i class="fab fa-facebook-f"></i></a>
+                              <!--a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                              <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a-->
+                        <!--h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening</h4>
+                        <h5 class="text-light fw-normal">Monday - Saturday</h5>
+                        <p>09AM - 09PM</p>
+                        <h5 class="text-light fw-normal">Sunday</h5>
+                        <p>10AM - 08PM</p-->
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening</h4>
+                      <h5 class="text-light fw-normal">Monday - Saturday</h5>
+                      <p>10AM - 09PM</p>
+                      <h5 class="text-light fw-normal">Sunday</h5>
+                      <p>10AM - 08PM</p>
+                        <!--h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
+                        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button-->
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">El Vado Mexican Food</a>, All Right Reserved. <br/> Designed By <a class="border-bottom" href="https://www.targetxalapa.com">Target - Publicidad e Imagen</a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="#">Home</a>
+                                <!--a href="">Cookies</a>
+                                <a href="">Help</a>
+                                <a href="">FQAs</a-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+        </div>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
